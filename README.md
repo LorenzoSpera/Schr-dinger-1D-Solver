@@ -1,1 +1,1 @@
-# Schr-dinger-1D-Solver
+# Schrodinger-1D-Solver
