@@ -45,6 +45,12 @@ from matplotlib.animation import PillowWriter
 ani.save("psi.gif", writer=PillowWriter(fps=30))
 ```
 
+## Example Animation
+
+Below is an example of the wave-packet evolution simulated by the solver:
+
+![Wave packet evolution](psi_real_1.gif)
+
 ## Dependencies
 
 -   numpy\
