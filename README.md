@@ -47,9 +47,9 @@ ani.save("psi.gif", writer=PillowWriter(fps=30))
 
 ## Example Animation
 
-Below is an example of the wave-packet evolution simulated by the solver:
+Below is an example of the wave-packet evolution:
 
-![Wave packet evolution](psi_real_1.gif)
+![Wave packet evolution](animation/psi_real_1.gif)
 
 ## Dependencies
 
