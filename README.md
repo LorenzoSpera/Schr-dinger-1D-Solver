@@ -9,22 +9,22 @@ in the presence of a rectangular potential barrier.
 
 The solver integrates the Schrödinger equation:
 
-\[ i`\hbar `{=tex}`\frac{\partial \psi}{\partial t}`{=tex} =
+$$ i`\hbar `{=tex}`\frac{\partial \psi}{\partial t}`{=tex} =
 -`\frac{\hbar^2}{2m}`{=tex}`\frac{\partial^2 \psi}{\partial x^2}`{=tex} +
-V(x)`\psi`{=tex}, \]
+V(x)`\psi`{=tex} $$, 
 
 using finite differences in space and a small explicit time‑stepping
 scheme.
 
-It generates animations of: - Re(ψ) - Im(ψ) - \|ψ\|²
+It generates animations of: - $$\Re(ψ) - Im(ψ) - \|ψ\|²$$
 
 ## Features
 
--   Gaussian wave packet initialization\
--   Potential barrier scattering\
--   Finite-difference Laplacian\
--   Simple explicit time evolution\
--   Matplotlib animations\
+-   Gaussian wave packet initialization
+-   Potential barrier scattering
+-   Finite-difference Laplacian
+-   Simple explicit time evolution
+-   Matplotlib animations
 -   GIF export via PillowWriter
 
 ## Usage
@@ -49,7 +49,7 @@ ani.save("psi.gif", writer=PillowWriter(fps=30))
 
 Below is an example of the wave-packet evolution:
 
-![Wave packet evolution](animation/psi_real_1.gif)
+![Wave packet evolution](animation/psi_real_animation.gif)
 
 ## Dependencies
 
