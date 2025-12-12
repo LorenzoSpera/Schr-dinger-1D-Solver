@@ -23,6 +23,13 @@ $$
 \Re(\psi(x,t)),  |\psi(x,t)|^2 
 $$
 
+both in the free case 
+$
+V(x) = 0
+$
+
+and in the case of an high potential barrier.
+
 ## Features
 
 -   Gaussian wave packet initialization
