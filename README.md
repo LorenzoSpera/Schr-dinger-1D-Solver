@@ -24,10 +24,9 @@ $$
 $$
 
 both in the free case 
-$
+$$
 V(x) = 0
-$
-
+$$
 and in the case of an high potential barrier.
 
 ## Features
