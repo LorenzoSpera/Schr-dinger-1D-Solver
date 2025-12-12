@@ -9,14 +9,14 @@ in the presence of a rectangular potential barrier.
 
 The solver integrates the Schrödinger equation:
 
-$$ i`\hbar `{=tex}`\frac{\partial \psi}{\partial t}`{=tex} =
--`\frac{\hbar^2}{2m}`{=tex}`\frac{\partial^2 \psi}{\partial x^2}`{=tex} +
-V(x)`\psi`{=tex} $$, 
+$$ i`\hbar `{}`\frac{\partial \psi}{\partial t}`{} =
+-`\frac{\hbar^2}{2m}`{}`\frac{\partial^2 \psi}{\partial x^2}`{} +
+V(x)`\psi`{} $$, 
 
 using finite differences in space and a small explicit time‑stepping
 scheme.
 
-It generates animations of: - $$\Re(ψ) - Im(ψ) - \|ψ\|²$$
+It generates animations of: - $$ \Re(\psi(x,t)),  |\psi(x,t)|^2$$
 
 ## Features
 
@@ -31,18 +31,26 @@ It generates animations of: - $$\Re(ψ) - Im(ψ) - \|ψ\|²$$
 
 ``` python
 from Solver_sch import schrodinger_solver
-from IPython.display import HTML
+from IPython.display import display
 
 solver = schrodinger_solver(N=1000, nsteps=500)
-ani = solver.animate_wave_function()
-HTML(ani.to_jshtml())
+animation = solver.animate_wave_function()
+
 ```
 
-To save:
+To display:
 
 ``` python
-from matplotlib.animation import PillowWriter
-ani.save("psi.gif", writer=PillowWriter(fps=30))
+
+display(animation)
+```
+
+To display the animation for $|\psi(x,t)|^2$ in the presence of the potential barrier:
+
+``` python
+potential_animation = solver.animate_wave_function_potential()
+display(potential animation)
+
 ```
 
 ## Example Animation
