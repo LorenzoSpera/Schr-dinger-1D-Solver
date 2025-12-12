@@ -10,8 +10,8 @@ in the presence of a rectangular potential barrier.
 The solver integrates the Schrödinger equation:
 
 $$ i\hbar \frac{\partial \psi}{\partial t} =
--\left\{\frac{\hbar^2}{2m}\frac{\partial^2 \psi}{\partial x^2} +
-V(x)\right\}\psi 
+\bigg(-\frac{\hbar^2}{2m}\frac{\partial^2 \psi}{\partial x^2} +
+V(x)\bigg)\psi 
 $$
 
 using finite differences in space and a small explicit time‑stepping
