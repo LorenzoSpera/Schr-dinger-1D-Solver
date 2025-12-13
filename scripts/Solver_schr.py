@@ -1,7 +1,7 @@
 # Script for solving Schrödinger 1 dimensional equation #
 # and animating the solution both in the free case      #
 # and the case with a potential barrier                 #
-# Import this module in a notebook to the the animation #
+# Import this module in a notebook to show the animation#
 # Contact : lorenzo.spera@studenti.unipg.it             #
 
 import numpy as np 
