@@ -72,15 +72,9 @@ Below is an example of the wave-packet evolution:
 
 ![Wave packet evolution](animation/psi_real_animation.gif)
 
-## Dependencies
-
--   numpy\
--   scipy\
--   matplotlib\
--   IPython
 
 ## Author
 
-Lorenzo Spera\
-University of Perugia\
+Lorenzo Spera
+University of Perugia
 Contact: lorenzo.spera@studenti.unipg.it
