@@ -75,6 +75,6 @@ Below is an example of the wave-packet evolution:
 
 ## Author
 
-Lorenzo Spera
-University of Perugia
+Lorenzo Spera\
+University of Perugia\
 Contact: lorenzo.spera@studenti.unipg.it
